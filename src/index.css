@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    background-color: #111010 !important;
+}
+.cls-1 {
+    fill: #ff9831;
+  }
+
+  .cls-2 {
+    fill: #0878ff;
+  }
