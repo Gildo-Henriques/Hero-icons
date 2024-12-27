@@ -1,4 +1,4 @@
-import Header from "./header";
+import Header from "./Header";
 
 function Hero() {
   return (
@@ -6,7 +6,7 @@ function Hero() {
               <div className="w-full -z-10 relative top-0 flex justify-center items-center">
         <img src="/public/hero.png" className="absolute top-0" alt="" />
       </div>
-      <Header />
+      <Header/>
 
       <div className="text-center lg:h-96 h-72 flex items-center justify-center">
         <h1 className="text-white text-3xl lg:text-5xl">

@@ -513,7 +513,7 @@ function Svgs() {
           <button
             onClick={() => copiarComApiClipboard(element.svg, index)}
             className={`px-4 py-2 text-white rounded ${
-              copiarIndex === index ? "text-green-500" : "text-slate-700"
+              copiarIndex === index ? "text-green-500" : "text-white"
             }`}
           >
             {copiarIndex === index ? "SVG Copiado" : "Copiar SVG"}
